@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrimbleConsoleApp", "TrimbleConsoleApp\TrimbleConsoleApp.csproj", "{1B2AF819-3702-4F86-B374-02692ADE002C}"
+EndProject
+Project("{A07B5EB6-E848-4116-A8D0-A826331D98C6}") = "TrimbleSFGEApp", "TrimbleSFGEApp\TrimbleSFGEApp.sfproj", "{E722E69D-9EAF-4477-A88F-B05904EA7173}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1B2AF819-3702-4F86-B374-02692ADE002C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B2AF819-3702-4F86-B374-02692ADE002C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B2AF819-3702-4F86-B374-02692ADE002C}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{1B2AF819-3702-4F86-B374-02692ADE002C}.Debug|x64.Build.0 = Debug|Any CPU
+		{1B2AF819-3702-4F86-B374-02692ADE002C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B2AF819-3702-4F86-B374-02692ADE002C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B2AF819-3702-4F86-B374-02692ADE002C}.Release|x64.ActiveCfg = Release|Any CPU
+		{1B2AF819-3702-4F86-B374-02692ADE002C}.Release|x64.Build.0 = Release|Any CPU
+		{E722E69D-9EAF-4477-A88F-B05904EA7173}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{E722E69D-9EAF-4477-A88F-B05904EA7173}.Debug|x64.ActiveCfg = Debug|x64
+		{E722E69D-9EAF-4477-A88F-B05904EA7173}.Debug|x64.Build.0 = Debug|x64
+		{E722E69D-9EAF-4477-A88F-B05904EA7173}.Debug|x64.Deploy.0 = Debug|x64
+		{E722E69D-9EAF-4477-A88F-B05904EA7173}.Release|Any CPU.ActiveCfg = Release|x64
+		{E722E69D-9EAF-4477-A88F-B05904EA7173}.Release|x64.ActiveCfg = Release|x64
+		{E722E69D-9EAF-4477-A88F-B05904EA7173}.Release|x64.Build.0 = Release|x64
+		{E722E69D-9EAF-4477-A88F-B05904EA7173}.Release|x64.Deploy.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5C31131A-2778-418C-BA2E-E58701E1F33A}
+	EndGlobalSection
+EndGlobal
