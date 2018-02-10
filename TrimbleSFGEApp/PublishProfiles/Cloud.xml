@@ -20,7 +20,13 @@
                                     AzureActiveDirectory="true"
                                     ServerCertThumbprint="0123456789012345678901234567890123456789" />
   -->
-  <ClusterConnectionParameters ConnectionEndpoint="khhackfestwin.eastus.cloudapp.azure.com:19000" X509Credential="true" ServerCertThumbprint="58A80816F79851BB47DA9DB6085CE062C34F3FD8" FindType="FindByThumbprint" FindValue="58A80816F79851BB47DA9DB6085CE062C34F3FD8" StoreLocation="CurrentUser" StoreName="My" />
+  <ClusterConnectionParameters ConnectionEndpoint="ASF_CLUSTER_NAME_GOES_HERE:19000"
+                               X509Credential="true"
+                               ServerCertThumbprint="THUMBPRINT_GOES_HERE"
+                               FindType="FindByThumbprint"
+                               FindValue="THUMBPRINT_GOES_HERE"
+                               StoreLocation="CurrentUser"
+                               StoreName="My" />
   <ApplicationParameterFile Path="..\ApplicationParameters\Cloud.xml" />
   <CopyPackageParameters CompressPackage="true" />
 </PublishProfile>
